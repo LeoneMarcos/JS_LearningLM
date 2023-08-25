@@ -49,3 +49,37 @@ document.write('a = ' + a);
 document.write('b = ' + b);
 document.write('c = ' + c);
 */
+//it works
+/*
+if(true){
+    document.write('entered inside the if (true) block')
+}
+*/
+//does not work
+/*
+if(false){
+    document.write('entered inside the if (true) block')
+}
+*/
+/*
+if (false){
+    document.write('entered inside the if (true) block')
+}else{
+    document.write('entered inside the if (false) block')
+}
+*/
+/*
+var a = window.prompt('How old are you?');
+let b = parseInt(a)
+if (b >= 0 && b<15 ){
+    document.write('Child')
+}else if (b>=15 && b<30 ){
+    document.write('young')
+}else if (b>=30 && b<60 ){
+    document.write('Adult')
+}else if(b>=60){
+    document.write('elderly')
+}else{
+    window.alert(' Invalid value')
+}
+*/
